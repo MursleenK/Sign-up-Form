@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Norse-Bold.otf);
+}
 a{
     color: aliceblue;
 }
@@ -12,11 +16,28 @@ body{
     width: 40%;
     height: 100vh;
     display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(255, 255, 255);
+    height: 120px;
+    width: 100%;
+    font-family: myFirstFont;
+    font-size: 55px;
+    font-weight: bolder;
+    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 150px;
 }
 .credit{
     color: aliceblue;
+    height: 20px;
+    width: 70%;
+    text-align: center;
 }
 .form{
     width: 60%;
