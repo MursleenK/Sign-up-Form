@@ -12,14 +12,31 @@
     <div class="credit">Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank"> Halie West</a> on <a href="https://unsplash.com/" target="_blank">Uplash</a></div>
     </div> 
 
-    <div class="form">
+    <div class="rightSide">
         <div class="text">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
         </div>
         <form action="post">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="leftCol">
+                <label for="firstName">FIRST NAME</label> <input id="firstName" type="text" name="firstName" required>
+                <label for="email">EMAIL</label> <input id="email" type="email" required>
+                <label for="password">PASSWORD</label> <input id="password" type="text" required>
+                    </div>
+                <div class="rightCol">
+                    <label for="lastName" > LAST NAME</label> <input id="lastName" type="text" name="lastName" required>
+                    <label for="phone" >PHONE NUMBER</label> <input id="phone" type="number" required>
+                    <label for="confirm" >CONFIRM PASSWORD</label> <input id="confirm" type="text" required>
+                </div>
+            </fieldset>
             
         </form>
+        <div class="button">
+            <button>Create Account</button>
+            <p class="already">Already have an account? <a href="./index.html" class="logIn">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>

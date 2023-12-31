@@ -5,6 +5,31 @@
 a{
     color: aliceblue;
 }
+a.logIn{
+    color: #596d48;
+    font-weight: bolder;
+    text-decoration: none;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    margin-left: 30px;
+    margin-top: 23px;
+    border-radius: 5px;
+    background-color: #596d48;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 5px 5px #dddddd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 body{
     outline: solid 1px black;
     margin: 0px;
@@ -38,8 +63,63 @@ body{
     height: 20px;
     width: 70%;
     text-align: center;
+    font-size: smaller;
 }
-.form{
+.rightSide{
     width: 60%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(249,250,252,255);
+}
+.text{
+    padding: 30px;
+    width: 74%;
+    font-weight: bolder;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.already{
+    margin-left: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+fieldset{
+    height: 200px;
+    display: flex;
+    gap: 100px;
+    border: 0px;
+
+}
+legend{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 14px;
+}
+.leftCol{
+    margin-left: 14px;
+    font-weight: bold;
+    font-size:smaller;
+    display: flex;
+    flex-direction: column;
+}
+.rightCol{ 
+    margin-left: 14px;
+    font-weight: bold;
+    font-size:smaller;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    border: solid 1px #E5E7EB;
+    padding: 0px;
+    width: 250px;
+    height: 30px;
+}
+input:focus{
+    border: solid 1px blue;
 }
